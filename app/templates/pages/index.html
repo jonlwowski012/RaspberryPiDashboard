@@ -1,0 +1,91 @@
+      <div class="content">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">GPS Speed</h5>
+                <h3 class="card-title" id="gpsspeed"><i class="tim-icons icon-bell-55 text-primary"></i> {{ gps_speed }} Mph</h3>
+              </div>
+              <div class="card-body">
+                <div class="chart-area">
+                  <canvas id="gpsSpeedChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">Engine Load</h5>
+                <h3 class="card-title" id="engineload" ><i class="tim-icons icon-send text-success"></i> {{ engine_load }}% </h3>
+              </div>
+              <div class="card-body">
+                <div class="chart-area">
+                  <canvas id="engineLoadChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">Coolant Temperature</h5>
+                <h3 class="card-title" id="coolanttemp"><i class="tim-icons icon-bell-55 text-primary"></i> {{ coolant_temp }}F </h3>
+              </div>
+              <div class="card-body">
+                <div class="chart-area">
+                  <canvas id="coolantTempChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">RPM</h5>
+                <h3 class="card-title" id="rpm"><i class="tim-icons icon-send text-success"></i> {{ rpm }} RPM</h3>
+              </div>
+              <div class="card-body">
+                <div class="chart-area">
+                  <canvas id="rpmChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">Mass Air Flow</h5>
+                <h3 class="card-title" id="massairflow"><i class="tim-icons icon-bell-55 text-primary"></i>  {{ mass_air_flow }} g/s </h3>
+              </div>
+              <div class="card-body">
+                <div class="chart-area">
+                  <canvas id="massAirFlowChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">Intake Air Temperature</h5>
+                <h3 class="card-title" id="intakeairtemp" ><i class="tim-icons icon-send text-success"></i> {{ intake_air_temp }}F</h3>
+              </div>
+              <div class="card-body">
+                <div class="chart-area">
+                  <canvas id="intakeAirTempChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
